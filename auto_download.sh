@@ -1,7 +1,7 @@
 •	#!/bin/bash
 •	# Script Name : auto_download.sh
 •	# Description : Downloads a file from the internet and saves it in a predefined directory.
-•	# Author      : shivam kuamr gupta
+•	# Author      : ADITYA YADAV
 •	# ====== VARIABLES ======
 •	DOWNLOAD_URL="$1"                         # URL to download (argument)
 •	DEST_DIR="$HOME/Downloads/auto_downloads" # Save folder
@@ -22,3 +22,4 @@
 •	  echo "File saved to: ${DEST_DIR}/${FILENAME}"
 •	else
 •	  echo " Download failed. Please check the URL."
+
