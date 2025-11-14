@@ -1,7 +1,7 @@
 •	#!/bin/bash
 •	# Script Name : monitor_resources.sh
 •	# Description : Logs CPU and memory usage to a file at regular intervals.
-•	# Author      : SHIVAM KUAMR GUPTA
+•	# Author      : ADITYA YADAV
 •	# ====== VARIABLES ======
 •	LOG_FILE="$HOME/system_monitor.log"
 •	INTERVAL=5   # Time interval in seconds between checks
@@ -16,3 +16,4 @@
 •	  echo "$TIMESTAMP | CPU: $CPU_USAGE | Memory: $MEM_USAGE" >> "$LOG_FILE"
 •	  sleep $INTERVAL
 •	done
+
